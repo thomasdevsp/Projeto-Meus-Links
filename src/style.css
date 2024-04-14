@@ -3,4 +3,72 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #141414;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Div-container {
+  background-color: #1f1f1f;
+  width: 24rem;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+#Div-container img {
+  border-radius: 50%;
+  width: 88px;
+  height: 88px;
+
+}
+
+#Div-container h1 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+#Div-container p {
+  margin-block: 24px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+strong {
+  color: #c4f82A;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#Div-container div a+a {
+  margin-top: 16px;
+}
+
+#Div-container div a {
+  display: block;
+  text-decoration: none;
+  background-color: #333333;
+  padding: 12px 120px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  transition: all .2s ease-in;
+}
+
+#Div-container div a:hover {
+  background-color: #c4f82A;
+  color: #141414;
 }
